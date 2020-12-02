@@ -413,7 +413,8 @@ class _TelaSobreState extends State<TelaSobre> {
       drawer: Drawer(),
       body: Center(
         child: Container(
-          child: Text('Davi Caterinque RA: 190009586'),
+          child: Text('Davi Caterinque RA: 190009586, APP para calcular comissão de vendedor de carros ', style: TextStyle(fontSize: 45),),
+ 
         ),
       ),
     );
