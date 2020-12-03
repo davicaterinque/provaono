@@ -409,15 +409,8 @@ class _TelaSobreState extends State<TelaSobre> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("Sobre")),
-
-      drawer: Drawer(),
-      body: Center(
-        child: Container(
-          child: Text('Davi Caterinque RA: 190009586, APP para calcular comissão de vendedor de carros ', style: TextStyle(fontSize: 45),),
- 
-        ),
-      ),
-    );
+      body: Text("Davi Caterinque RA: 190009586, APP para calcular comissão de vendedor de carros,",style: TextStyle(fontSize: 20, fontStyle: FontStyle.italic)),
+      );
   }
 }
 
