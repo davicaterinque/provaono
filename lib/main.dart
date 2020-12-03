@@ -15,7 +15,7 @@ class Carro {
 
 
   double calcularComissao() {
-    return _valor * _comissao;
+    return _valor * 0.02;
   }
 }
 
