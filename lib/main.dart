@@ -243,7 +243,7 @@ class _TelaInformacoesDoCarro extends State<TelaInformacoesDoCarro> {
   }
 
   void _atualizarDados() {
-    if (index >= 0 && index < lista.length) {
+    if (index > 0 && index < lista.length) {
       _edicaoHabilitada = false;
       lista[index]._modelo = modeloController.text;
       lista[index]._ano = double.parse(anoController.text);
@@ -443,8 +443,8 @@ class _TelaCadastrarCarroState extends State<TelaCadastrarCarro> {
 
   final List<Carro> lista;
   String _modelo = "";
-  double _ano = 0.0;
-  double _valor = 0.0;
+  double _ano = 0;
+  double _valor = 0.00;
   double _fontSize = 20.0;
   final modeloController = TextEditingController();
   final anoController = TextEditingController();
